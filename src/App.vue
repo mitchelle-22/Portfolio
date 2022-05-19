@@ -72,13 +72,15 @@
           </router-link>
           </li>
           <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
-            Services
+          Experince
           </li>
           <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
             Portfolio
           </li>
           <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+            <router-link to="/contact">
             Contact
+            </router-link>
           </li>
       
         </ul>

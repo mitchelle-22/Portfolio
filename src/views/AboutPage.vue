@@ -3,17 +3,15 @@
 
 
 <div class="container flex justify-between gap-4  ">
-<div class=" w-full pl-40 mt-7 sm:mb-0 img" >
-  <div class="flex flex-1">
-    <img  srcset="large-img.jpeg 1024w,
-middle-img.jpeg 640w,
-small-img.jpeg  320w" src="@/assets/images/profile.jpeg" class="rounded-xl" alt="">
-  </div>
+<div class=" w-full pl-20 mt-12 sm:mb-0 img" >
+
+    <img src="@/assets/images/profile.jpeg" class="rounded-xl w-96" alt="">
+  
 </div>
   <!-- ... -->
   <div class="flex justify-center items-center text-lg font-medium pt-6 md:p-8 text-center md:text-left">
     
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dicta, quibusdam similique vero, ratione accusantium sapiente libero nihil dolorum enim dolores? Quis quisquam fugit repellendus repudiandae laboriosam! Libero, totam nemo. Incidunt, consequuntur, nihil tenetur vitae adipisci pariatur eos est officia unde laboriosam repudiandae. Sit laudantium ut deserunt? Facere quod, dolore illo eos libero deleniti rem vitae nesciunt minima ipsa! Sit iste tenetur quo eum sequi exercitationem dolores, quas id, nam eveniet laudantium distinctio nostrum adipisci quam at voluptates accusantium porro optio quisquam accusamus fuga nobis. Dicta aperiam aliquam perspiciatis necessitatibus molestias id dolorem soluta ipsum reprehenderit. A repellendus laboriosam dolorum.</p>
+      <p>Michelle Ramela is a Software Developer graduate from Tshwane University of Technology,she is based in Pretoria but currently residing in Johannesburg Aucklandpark.She has an experience of developing systems and software that allow users to perform specific tasks on computers and other devices.She have a methodical, customer-focused approach to work and strong drive to see things through to completion.A front-end developer she is with a keen eye for creating engaging UI, bringing products to life.Fast-forward to today, she had the privilege of working with The Digital Academy, a start-up, a huge corporation where she developed 2 mobile applications 1 with ionic and the 2nd with angular , and currently learning Vue 3,with the use of tailwind css for stylying by building simple projects (including this portfolio 😊).</p>
     
   </div>
 </div>
