@@ -11,7 +11,8 @@
         </div>
         <div class="md:flex-grow pl-6 mt-4">
           
-          <p>Michelle Ramela is a Software Developer graduate from Tshwane University of Technology,she is based in Pretoria but currently residing in Johannesburg Aucklandpark.She has an experience of developing systems and software that allow users to perform specific tasks on computers and other devices.She have a methodical, customer-focused approach to work and strong drive to see things through to completion.A front-end developer she is with a keen eye for creating engaging UI, bringing products to life.Fast-forward to today, she had the privilege of working with The Digital Academy, a start-up, a huge corporation where she developed 2 mobile applications 1 with ionic and the 2nd with angular , and currently learning Vue 3,with the use of tailwind css for stylying by building simple projects (including this portfolio 😊).</p> 
+          <p>Michelle Ramela is a Software Developer graduate from Tshwane University of Technology,she is based in Pretoria but currently residing in Johannesburg Aucklandpark.She has an experience of developing systems and software that allow users to perform specific tasks on computers and other devices.She have a methodical, customer-focused approach to work and strong drive <br>to see things through to completion.A front-end developer she is with a keen eye for creating engaging UI, bringing products <br>to life.
+            Fast-forward to today, she had the privilege of working with The Digital Academy, a start-up, a huge corporation <br>where she developed 2 mobile applications 1 with ionic and the 2nd with angular , and currently learning Vue 3,with <br>the use of tailwind css for stylying by building simple projects (including this portfolio 😊).</p> 
         </div>
       </div>
       <div class="py-8 flex flex-wrap md:flex-nowrap">
