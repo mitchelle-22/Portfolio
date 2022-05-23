@@ -1,17 +1,19 @@
 <template>
 <div id="homepage" class=" w-screen h-screen py-8" :style="{'background-color':'#E0E0E0'}">
-  <div class="container flex flex-row mt-8 justify-between ">
-    <div class="container">
-      <span class="inline-grid grid-cols-1 gap-2 mt-40 pl-16">
-        <h3 class="text-purple text-4xl pl-16 ">Hello</h3>
-        <div class="container text-4xl pl-16">
+  <section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-purple">HELLO
+        <br class="hidden lg:inline-block">
+      </h1>
+       <div class="container text-4xl">
           I'm <a class="text-purple">Michelle Ramela</a>
         </div>
-        <h3 class="pl-16">Full-Stack Developer / Web Developer</h3>
+      <p class="mb-8 leading-relaxed">Full-Stack Developer / Web Developer</p>
+      <div class="flex justify-center ">
+        
 
-
-        <div class="flex flex-row items-center gap-2 pl-20 ">
-      <button type="button" class="flex justify-left items-center bg-purple  text-white text-xl font-bold p-2 m-2 rounded-full  h-7 w-7 ">
+        <button type="button" class="flex justify-left items-center bg-purple  text-white text-xl font-bold p-2 m-2 rounded-full  h-7 w-7 ">
         <a href="https://www.facebook.com/mitchelle.ramela.9">
         <img src="@/assets/icons/facebook.svg" /> 
         </a> 
@@ -34,18 +36,15 @@
         <img src="@/assets/icons/github.svg" />
         </a>
       </button>
-
+      </div>
     </div>
-       
-      </span>
-    </div>
-    <div class="flex items-center image mt-10 pr-10">
-      <span class="inline-grid grid-cols-1 gap-4 pl-10">
-        <img src="@/assets/icons/homepage.svg" />
-      </span>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+     <img src="@/assets/icons/homepage.svg" />
     </div>
   </div>
-</div>
+</section>
+  </div>
+
 
 </template>
 

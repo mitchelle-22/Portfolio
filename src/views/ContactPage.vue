@@ -12,7 +12,9 @@
               <img src="@/assets/icons/contact.svg" />
           </div>
         </div>
-         <div class="">
+
+        <form action="https://formsubmit.co/mitchellefetty@gmail.com" method="POST">
+         <div class="mt-8">
           <div>
             <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
             <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" 
@@ -32,13 +34,16 @@
             <button
               class="uppercase text-sm font-bold tracking-wide bg-purple text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline"
               type="submit"
-              @click="submitForm">
+              @click="resetForm">
               Send Message
             </button>
           </div>
+         
         </div>
-        </div>
-    </div>
+         </form>
+        </div>  
+    </div>    
+    
 </template>
 <script>
 import useValidate from "@vuelidate/core";
@@ -53,13 +58,16 @@ export default {
     };
   },
      methods: {
-    submitForm() {
-      this.v$.$validate() // checks all inputs
-if (!this.v$.$error) { // if ANY fail validation
-	alert('Form successfully submitted.')
-} else {
-alert('Form failed validation')		}
-    },
+//     submitForm() {
+//       this.v$.$validate() 
+// if (!this.v$.$error) { 
+// 	console.log(this.submitForm)
+// } else {
+// alert('Form failed validation')		}
+//     },
+resetForm(){
+    this.email
+}
   },
   validations() {
     return {
@@ -67,6 +75,7 @@ alert('Form failed validation')		}
       email: { required },
     }
   }
+  
 }
 </script>
 <style>

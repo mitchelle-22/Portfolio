@@ -89,9 +89,10 @@
    
     </div>
     <router-view />
-   <footer-page />
+   
  
 </div>
+<footer-page />
  
 
   

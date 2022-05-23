@@ -1,15 +1,22 @@
 <template>
 <div id="footerPage">
-   <footer class="footer footer-center bg-base-300 text-base-content max-w-screen-xl md:px-12 lg:px-16 xl:px-32 px-10 mx-auto">
-   
+  
+   <footer class="footer footer-center bg-base-300 text-base-content max-w-screen-xxl md:px-12 lg:px-16 xl:px-32 px-10 mt-auto">
+    
+      <div
+        class="
+          container
+          flex flex-col flex-wrap  
+        "
+      >
 		<div
-			class="grid-flow-col md:place-self-center py-4 font-general-regular text-lg text-ternary-dark dark:text-ternary-light"
+			class="flex-shrink-0 mx-auto grid-flow-col md:place-self-center py-4 font-general-regular text-lg text-ternary-dark dark:text-ternary-light"
 		>
 			&copy; {{ copyrightDate }}.
 			<a
 				href="https://github.com/mitchelle-22/Portfolio"
 				target="__blank"
-				class="font-general-medium hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 duration-500"
+				class="font-general-medium hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 duration-500      "
 			>
 				{{ projectName }}
 			</a>
@@ -21,8 +28,12 @@
 				>{{ author }}</a
 			>
 		</div>
+      </div>
+     
   </footer>
-	</div>
+  </div>
+
+	
 </template>
 
 <script>
