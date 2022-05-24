@@ -16,7 +16,6 @@
 </template>
 
 <script>
-
 import FooterPage from '@/components/FooterPage.vue'
 import NavPage from '@/components/NavPage.vue'
 

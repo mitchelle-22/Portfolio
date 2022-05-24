@@ -76,7 +76,9 @@
             </router-link>
           </li>
           <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+              <router-link to="/portfolio">
             Portfolio
+              </router-link>
           </li>
           <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
             <router-link to="/contact">
