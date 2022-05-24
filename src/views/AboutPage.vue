@@ -1,7 +1,7 @@
 <template>
 <div id="aboutpage" class=" w-screen h-screen py-8 " :style="{'background-color':'#E0E0E0'}">
 <section class="text-gray-600 body-font overflow-hidden">
-  <div class="container px-5 py-24 mx-auto">
+  <div class="container px-5 py-10 mx-auto">
      
       <div class="py-8 flex flex-wrap md:flex-nowrap">
         <div class="md:w-64 md:mb-0 mb-6 pl-6 flex-shrink-0 flex flex-col">
