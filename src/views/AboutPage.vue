@@ -4,9 +4,9 @@
   <div class="container px-5 py-10 mx-auto">
      
       <div class="py-8 flex flex-wrap md:flex-nowrap">
-        <div class="md:w-64 md:mb-0 mb-6 pl-6 flex-shrink-0 flex flex-col">
+        <div class=" mb-6 md:w-1/2 w-5/6 pl-6 ">
           
-
+<!-- lg:max-w-lg lg:w-full md:w-1/2 w-5/6 -->
     <img src="@/assets/images/profile.jpeg" class="rounded-xl w-96" alt="">
         </div>
         <div class="md:flex-grow pl-6 mt-4">
@@ -111,11 +111,15 @@
     
   </div>
   
-
+<footer-page />
 </template>
 
 <script>
+import FooterPage from "@/components/FooterPage.vue"
     export default{
+        components:{
+        FooterPage,
+  },
   name:'AboutPage',
   data (){
    return{

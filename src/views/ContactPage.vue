@@ -43,12 +43,16 @@
          </form>
         </div>  
     </div>    
-    
+    <footer-page />
 </template>
 <script>
 import useValidate from "@vuelidate/core";
 import { required } from "@vuelidate/validators";
+import FooterPage from "@/components/FooterPage.vue"
 export default {
+  components:{
+    FooterPage
+  },
 
     data() {
         return {
